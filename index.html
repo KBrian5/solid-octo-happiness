@@ -17,47 +17,43 @@
   <body class="container-fluid">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kevin's Incredible Fun Name Facts that will Blow your Mind</a>
+        <a class="navbar-brand" href="#">Kevin Salgado's Application</a>
+        <ul class="navbar-nav">
+          <a class="nav-link" href="#">Echo Story Card</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">See the Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Check this page's validation</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-           
-          </ul>
+          data-bs-target="#collapsibleNavbar">
+        
+        </ul>
         </div>
       </div>
     </nav>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <img id="dogePic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD19yq6i9OWwvIdP2357S7gqmOlAeWotHBwg&usqp=CAU">
-        <h3>Get ready to learn some facts about your name!</h3>
-      </div>
+
+    <h4 class="col-md-5 offset-md-4">
+      Welcome to my App! Click a Game to be Amazed!
+    </h4>
+
+    
       
 
       <!-- this is my name game card -->
-      <div class="col-sm-8 offset-sm-2">
+      <div class="col-sm-6 offset-sm-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title">Cool Name Facts</h4>
+            <h4 class="card-title">Alpha Game</h4>
             <p class="card-text">Trade in your name for some cool facts!</p>
+            <p class="card-text">Feel the love!</p>
 
-            <label for="userName" class="form-label">What is your name?</label>
-            <input
-              type="text"
-              id="userName"
-              class="form-control"
-              name="userName"
-            />
-            <button id="btnGetFacts" class="btn btn-secondary">
-              Submit and Receive Interesting Facts
-            </button>
+            <a href="https://codepen.io/kbrian5/full/MWVRjKP" class="btn btn-secondary" target="_blank">Go to Alpha!</a>
 
             <br />
 
@@ -69,20 +65,45 @@
         </div>
       </div>
     </div>
-    <div id="mydiv">
-      <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-      <div id="mydivheader">Click here to move</div>
-      <div class="col-sm-4">
-        <img id="dogePic" src=https://statics.ambcrypto.com/wp-content/uploads/2022/09/PP-2-DOGE-cover-e1662103920506.jpg>
-      
-  
+
+    <div class="col-sm-6 offset-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Charlie Game</h4>
+            <p class="card-text">Trade in your name for some cool facts!</p>
+
+            <a href="https://kbrian5.github.io/stunning-pancake/" class="btn btn-secondary" target="_blank">Go to Charlie!</a>
+            <br />
+
+            <span id="coolNameFactsOutput"> </span>
+            <img id="coolNameImg" />
+            <!-- <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
     </div>
 
-    
-      
-      <div class="footer">
-        <a href="https://github.com/KBrian5/curly-disco">Navigate the code for more info!</a>
+    <div class="col-sm-6 offset-sm-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Delta Game</h4>
+          <p class="card-text">Trade in your name for some cool facts!</p>
+
+          <a href="https://kbrian5.github.io/curly-disco/" class="btn btn-secondary" target="_blank">Go to Delta!</a>
+          <br />
+
+          <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+        </div>
       </div>
+    </div>
+  </div>
+
+   
+    <div id="mydiv">
+      <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  
       
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

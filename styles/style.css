@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
 
 body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Gl4EFna1vELwGID6RewCCaXOrEHoH620fQ&usqp=CAU');
+  background-image: url('https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__480.jpg');
   
+}
+
+h4 {
+  color: white;
+
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+
 }
 
 
@@ -17,7 +25,7 @@ h3 {
 .card {
   margin-top: 1rem;
   color: white;
-  background-color: goldenrod;
+  background-color: purple;
   position: center;
   
 }
@@ -52,3 +60,5 @@ h3 {
   background-color: black;
   color: #fff;
 }
+
+
